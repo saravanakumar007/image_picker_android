@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepickerexample;
+package com.tech.imgpicker;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;

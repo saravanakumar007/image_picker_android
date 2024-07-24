@@ -14,7 +14,7 @@ flutter:
     implements: image_picker
     platforms:
       android:
-        package: io.flutter.plugins.imagepicker
+        package: com.tech.imgpicker
         pluginClass: ImagePickerPlugin
         dartPluginClass: ImagePickerAndroid
 
@@ -22,7 +22,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^2.0.1
-  img_picker_platform_interface: ^2.9.1
+  img_picker_platform_interface: 3.0.0
   
 
 dev_dependencies:

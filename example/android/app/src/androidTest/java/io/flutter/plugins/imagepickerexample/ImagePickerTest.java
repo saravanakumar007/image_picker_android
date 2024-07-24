@@ -2,12 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepickerexample;
+package com.tech.imgpicker;
 
 import static org.junit.Assert.assertTrue;
 
 import androidx.test.core.app.ActivityScenario;
-import io.flutter.plugins.imagepicker.ImagePickerPlugin;
+import com.tech.imgpicker.ImagePickerPlugin;
 import org.junit.Test;
 
 public class ImagePickerTest {

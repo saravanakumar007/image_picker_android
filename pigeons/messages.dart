@@ -9,7 +9,7 @@ import 'package:pigeon/pigeon.dart';
   dartTestOut: 'test/test_api.g.dart',
   javaOut: 'android/src/main/java/io/flutter/plugins/imagepicker/Messages.java',
   javaOptions: JavaOptions(
-    package: 'io.flutter.plugins.imagepicker',
+    package: 'com.tech.imgpicker',
   ),
   copyrightHeader: 'pigeons/copyright.txt',
 ))

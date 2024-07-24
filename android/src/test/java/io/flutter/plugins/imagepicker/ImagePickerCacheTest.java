@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepicker;
+package com.tech.imgpicker;
 
-import static io.flutter.plugins.imagepicker.ImagePickerCache.SHARED_PREFERENCES_NAME;
+import static com.tech.imgpicker.ImagePickerCache.SHARED_PREFERENCES_NAME;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertTrue;

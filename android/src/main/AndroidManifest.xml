@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.flutter.plugins.imagepicker">
+    package="com.tech.imgpicker">
 
     <application>
         <provider
-            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+            android:name="com.tech.imgpicker.ImagePickerFileProvider"
             android:authorities="${applicationId}.flutter.image_provider"
             android:exported="false"
             android:grantUriPermissions="true">

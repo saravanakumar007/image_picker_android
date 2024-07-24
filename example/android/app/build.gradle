@@ -25,13 +25,13 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace 'io.flutter.plugins.imagepickerexample'
+    namespace 'com.tech.imgpicker'
     compileSdkVersion flutter.compileSdkVersion
     testOptions.unitTests.includeAndroidResources = true
 
 
     defaultConfig {
-        applicationId "io.flutter.plugins.imagepicker.example"
+        applicationId "com.tech.imgpicker"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion 33
         multiDexEnabled true
@@ -64,7 +64,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    implementation project(':image_picker_android')
+    implementation project(':img_picker_android')
     implementation project(':espresso')
     api 'androidx.test:core:1.4.0'
 }

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepicker;
+package com.tech.imgpicker;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.IsEqual.equalTo;
@@ -28,11 +28,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import androidx.annotation.Nullable;
-import io.flutter.plugins.imagepicker.Messages.FlutterError;
-import io.flutter.plugins.imagepicker.Messages.GeneralOptions;
-import io.flutter.plugins.imagepicker.Messages.ImageSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.MediaSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.VideoSelectionOptions;
+import com.tech.imgpicker.Messages.FlutterError;
+import com.tech.imgpicker.Messages.GeneralOptions;
+import com.tech.imgpicker.Messages.ImageSelectionOptions;
+import com.tech.imgpicker.Messages.MediaSelectionOptions;
+import com.tech.imgpicker.Messages.VideoSelectionOptions;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

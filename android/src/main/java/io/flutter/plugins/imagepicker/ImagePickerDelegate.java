@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepicker;
+package com.tech.imgpicker;
 
 import android.Manifest;
 import android.app.Activity;
@@ -24,9 +24,9 @@ import androidx.annotation.VisibleForTesting;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 import io.flutter.plugin.common.PluginRegistry;
-import io.flutter.plugins.imagepicker.Messages.FlutterError;
-import io.flutter.plugins.imagepicker.Messages.ImageSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.VideoSelectionOptions;
+import com.tech.imgpicker.Messages.FlutterError;
+import com.tech.imgpicker.Messages.ImageSelectionOptions;
+import com.tech.imgpicker.Messages.VideoSelectionOptions;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

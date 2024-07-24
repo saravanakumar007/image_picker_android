@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepicker;
+package com.tech.imgpicker;
 
 import android.app.Activity;
 import android.app.Application;
@@ -18,16 +18,16 @@ import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
 import io.flutter.embedding.engine.plugins.lifecycle.FlutterLifecycleAdapter;
 import io.flutter.plugin.common.BinaryMessenger;
-import io.flutter.plugins.imagepicker.Messages.CacheRetrievalResult;
-import io.flutter.plugins.imagepicker.Messages.FlutterError;
-import io.flutter.plugins.imagepicker.Messages.GeneralOptions;
-import io.flutter.plugins.imagepicker.Messages.ImagePickerApi;
-import io.flutter.plugins.imagepicker.Messages.ImageSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.MediaSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.Result;
-import io.flutter.plugins.imagepicker.Messages.SourceCamera;
-import io.flutter.plugins.imagepicker.Messages.SourceSpecification;
-import io.flutter.plugins.imagepicker.Messages.VideoSelectionOptions;
+import com.tech.imgpicker.Messages.CacheRetrievalResult;
+import com.tech.imgpicker.Messages.FlutterError;
+import com.tech.imgpicker.Messages.GeneralOptions;
+import com.tech.imgpicker.Messages.ImagePickerApi;
+import com.tech.imgpicker.Messages.ImageSelectionOptions;
+import com.tech.imgpicker.Messages.MediaSelectionOptions;
+import com.tech.imgpicker.Messages.Result;
+import com.tech.imgpicker.Messages.SourceCamera;
+import com.tech.imgpicker.Messages.SourceSpecification;
+import com.tech.imgpicker.Messages.VideoSelectionOptions;
 import java.util.List;
 
 @SuppressWarnings("deprecation")

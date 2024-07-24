@@ -1,4 +1,4 @@
-group 'io.flutter.plugins.imagepicker'
+group 'com.tech.imgpicker'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
     // Conditional for compatibility with AGP <4.2.
     if (project.android.hasProperty("namespace")) {
-        namespace 'io.flutter.plugins.imagepicker'
+        namespace 'com.tech.imgpicker'
     }
     compileSdkVersion 33
 

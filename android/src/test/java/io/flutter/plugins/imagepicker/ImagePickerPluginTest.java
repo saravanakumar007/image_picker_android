@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.imagepicker;
+package com.tech.imgpicker;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -23,12 +23,12 @@ import io.flutter.embedding.engine.plugins.FlutterPlugin.FlutterPluginBinding;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
 import io.flutter.embedding.engine.plugins.lifecycle.HiddenLifecycleReference;
 import io.flutter.plugin.common.BinaryMessenger;
-import io.flutter.plugins.imagepicker.Messages.FlutterError;
-import io.flutter.plugins.imagepicker.Messages.GeneralOptions;
-import io.flutter.plugins.imagepicker.Messages.ImageSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.MediaSelectionOptions;
-import io.flutter.plugins.imagepicker.Messages.SourceSpecification;
-import io.flutter.plugins.imagepicker.Messages.VideoSelectionOptions;
+import com.tech.imgpicker.Messages.FlutterError;
+import com.tech.imgpicker.Messages.GeneralOptions;
+import com.tech.imgpicker.Messages.ImageSelectionOptions;
+import com.tech.imgpicker.Messages.MediaSelectionOptions;
+import com.tech.imgpicker.Messages.SourceSpecification;
+import com.tech.imgpicker.Messages.VideoSelectionOptions;
 import java.util.List;
 import org.junit.After;
 import org.junit.Before;
