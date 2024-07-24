@@ -249,7 +249,7 @@
     },
     {
       "name": "image_picker_android",
-      "rootUri": "../../",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/git/image_picker_android-26aae756b0a5c10f9ce80cbb8be74591c24d9b1f/",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -512,7 +512,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-07-24T12:11:13.969133Z",
+  "generated": "2024-07-24T12:12:54.074024Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

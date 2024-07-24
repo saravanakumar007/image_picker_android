@@ -317,9 +317,11 @@ packages:
   image_picker_android:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: "26aae756b0a5c10f9ce80cbb8be74591c24d9b1f"
+      url: "https://github.com/saravanakumar007/image_picker_android.git"
+    source: git
     version: "0.8.7+5"
   image_picker_platform_interface:
     dependency: "direct main"
