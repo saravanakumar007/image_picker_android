@@ -153,7 +153,7 @@
     },
     {
       "name": "img_picker_platform_interface",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/img_picker_platform_interface-3.0.0",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/git/image_picker_platform_interface-1200e6fe915f9fbfd958307ec9467b55427444cd/",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -207,9 +207,9 @@
     },
     {
       "name": "pigeon",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/pigeon-9.2.5",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/pigeon-14.0.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.19"
     },
     {
       "name": "plugin_platform_interface",
@@ -296,13 +296,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "img_picker_android",
+      "name": "image_picker_android",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-07-24T16:02:32.475920Z",
+  "generated": "2024-07-24T19:46:39.706055Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

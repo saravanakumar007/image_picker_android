@@ -2,11 +2,11 @@ name: image_picker_android
 description: Android implementation of the image_picker plugin.
 repository: https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android
 issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+image_picker%22
-version: 0.8.12+3
+version: 1.0.0
 
 environment:
-  sdk: ^3.4.0
-  flutter: ">=3.22.0"
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.7.0"
 
 flutter:
   plugin:
@@ -21,13 +21,16 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^2.0.1
-  image_picker_platform_interface: ^2.10.0
+  img_picker_platform_interface:
+    git:
+     url: git@github.com:saravanakumar007/image_picker_platform_interface.git
+     ref: main
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: 5.4.4
-  pigeon: ^17.0.0
+  mockito: ^5.4.0
+  pigeon: ^14.0.0
 
 topics:
   - camera
