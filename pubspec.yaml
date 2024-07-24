@@ -1,7 +1,7 @@
 name: img_picker_android
-description: Android implementation of the image_picker plugin.
-repository: https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android
-issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+image_picker%22
+description: Android implementation of the img_picker plugin.
+repository: https://github.com/saravanakumar007/image_picker_android
+issue_tracker: https://github.com/saravanakumar007/image_picker_android/issues
 
 version: 1.0.0
 
