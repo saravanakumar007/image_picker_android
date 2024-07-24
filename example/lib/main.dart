@@ -1,26 +1,8 @@
-// Copyright 2013 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-// ignore_for_file: public_member_api_docs
-
 import 'dart:async';
-import 'dart:io';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_driver/driver_extension.dart';
 // #docregion photo-picker-example
 import 'package:image_picker_android/image_picker_android.dart';
 import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
-// #enddocregion photo-picker-example
-import 'package:mime/mime.dart';
-import 'package:video_player/video_player.dart';
-
-void appMain() {
-  enableFlutterDriverExtension();
-  main();
-}
 
 void main() {
   // Set to use Android Photo Picker.

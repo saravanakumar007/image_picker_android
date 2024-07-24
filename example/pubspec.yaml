@@ -13,14 +13,13 @@ dependencies:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^2.0.1
   image_picker_android:
-    # When depending on this package from a real application you should use:
-    #   image_picker_android: ^x.y.z
-    # See https://dart.dev/tools/pub/dependencies#version-constraints
-    # The example app is bundled with the plugin so we use a path dependency on
-    # the parent directory to use the current plugin's version.
-    path: ../
+    git:
+     url: https://github.com/saravanakumar007/image_picker_android.git
+     ref: main
   image_picker_platform_interface:
-   path: ../../image_picker_platform_interface
+   git:
+     url: https://github.com/saravanakumar007/image_picker_platform_interface.git
+     ref: main
   mime: ^1.0.4
   video_player: ^2.1.4
 
