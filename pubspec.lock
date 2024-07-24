@@ -198,11 +198,10 @@ packages:
   img_picker_platform_interface:
     dependency: "direct main"
     description:
-      path: "."
-      ref: main
-      resolved-ref: "90e01aeb5df46684e88ef3f5082fa2ec2866eff6"
-      url: "https://github.com/saravanakumar007/image_picker_platform_interface.git"
-    source: git
+      name: img_picker_platform_interface
+      sha256: "37754092f6cc063a19b75cbd4657efc315e5ae4082ec5a50071a2c40fc256934"
+      url: "https://pub.dev"
+    source: hosted
     version: "2.9.1"
   js:
     dependency: transitive

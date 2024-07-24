@@ -153,7 +153,7 @@
     },
     {
       "name": "img_picker_platform_interface",
-      "rootUri": "file:///Users/saravanakumark/.pub-cache/git/image_picker_platform_interface-90e01aeb5df46684e88ef3f5082fa2ec2866eff6/",
+      "rootUri": "file:///Users/saravanakumark/.pub-cache/hosted/pub.dev/img_picker_platform_interface-2.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
@@ -302,7 +302,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2024-07-24T14:19:26.048341Z",
+  "generated": "2024-07-24T14:26:49.847359Z",
   "generator": "pub",
   "generatorVersion": "2.19.6"
 }

@@ -3,7 +3,7 @@ description: Android implementation of the image_picker plugin.
 repository: https://github.com/flutter/packages/tree/main/packages/image_picker/image_picker_android
 issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+image_picker%22
 
-version: 0.8.7+5
+version: 1.0.0
 
 environment:
   sdk: ">=2.19.0 <4.0.0"
@@ -22,10 +22,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_plugin_android_lifecycle: ^2.0.1
-  img_picker_platform_interface:
-    git:
-       url: https://github.com/saravanakumar007/image_picker_platform_interface.git
-       ref: main
+  img_picker_platform_interface: ^2.9.1
   
 
 dev_dependencies:
