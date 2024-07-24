@@ -314,21 +314,21 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-  image_picker_android:
+  img_picker_android:
     dependency: "direct main"
     description:
       path: "."
       ref: main
-      resolved-ref: "26aae756b0a5c10f9ce80cbb8be74591c24d9b1f"
+      resolved-ref: "3ab7a6993ff64ee0d2c299b8a24043741ea1ff6c"
       url: "https://github.com/saravanakumar007/image_picker_android.git"
     source: git
     version: "0.8.7+5"
-  image_picker_platform_interface:
+  img_picker_platform_interface:
     dependency: "direct main"
     description:
       path: "."
       ref: main
-      resolved-ref: "45038944ae1a0ef73b34bca7e5c0bce97e32f2e5"
+      resolved-ref: "90e01aeb5df46684e88ef3f5082fa2ec2866eff6"
       url: "https://github.com/saravanakumar007/image_picker_platform_interface.git"
     source: git
     version: "2.9.1"

@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 // #docregion photo-picker-example
-import 'package:image_picker_android/image_picker_android.dart';
-import 'package:image_picker_platform_interface/image_picker_platform_interface.dart';
+import 'package:img_picker_android/img_picker_android.dart';
+import 'package:img_picker_platform_interface/img_picker_platform_interface.dart';
 
 void main() {
   // Set to use Android Photo Picker.

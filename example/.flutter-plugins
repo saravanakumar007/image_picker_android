@@ -1,7 +1,7 @@
 # This is a generated file; do not edit or check into version control.
 espresso=/Users/saravanakumark/.pub-cache/hosted/pub.dev/espresso-0.2.1/
 flutter_plugin_android_lifecycle=/Users/saravanakumark/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.17/
-image_picker_android=/Users/saravanakumark/.pub-cache/git/image_picker_android-26aae756b0a5c10f9ce80cbb8be74591c24d9b1f/
+img_picker_android=/Users/saravanakumark/.pub-cache/git/image_picker_android-3ab7a6993ff64ee0d2c299b8a24043741ea1ff6c/
 integration_test=/Users/saravanakumark/Desktop/Flutter/SDK/flutter/packages/integration_test/
 video_player=/Users/saravanakumark/.pub-cache/hosted/pub.dev/video_player-2.7.2/
 video_player_android=/Users/saravanakumark/.pub-cache/hosted/pub.dev/video_player_android-2.4.10/
